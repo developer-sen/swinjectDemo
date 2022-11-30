@@ -1,0 +1,6 @@
+module Pods_SwinjectDemo_SwinjectDemoTests {
+  umbrella header "Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

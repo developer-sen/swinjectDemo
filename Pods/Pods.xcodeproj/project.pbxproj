@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076DC95D785A860F91FF87DC1F5CB748 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CE7E2D5B6CB92C96537FF6D0EFED7B /* Assembly.swift */; };
+		0C0338C57884744C2131DB4B63C848C9 /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754ECF8D103C332955A2E443791AE213 /* ObjectScope.Standard.swift */; };
+		0CB81354233EC45E95FF6315E4C960A6 /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC9661A02F80B98084F2621E850F77 /* RegistrationNameAssociatable.swift */; };
+		0F4B0DCF57F9721FD70EEF24649456DD /* Pods-SwinjectDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB757D31717D1295D9B2ED7279C5495 /* Pods-SwinjectDemo-dummy.m */; };
+		169B913E33E6C02C4BA288F8F7EC4F52 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B174D25746555DFC087737EDEB72ECE /* Operators.swift */; };
+		1B1DD33858DDC96315E85867E152751B /* GraphIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4213CC9581D9AE5FEDB3D70FF038F1 /* GraphIdentifier.swift */; };
+		1CE6DFB35A27E1419261C298C18EE947 /* Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 906719B086D3286545E1B8B26F716FA9 /* Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DFF1675C26D45C26AE4E041A4540E09 /* SwinjectStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F943FADE9D9319103B01BC4E849F366 /* SwinjectStoryboardProtocol.swift */; };
+		309882A99DD0F370BB0680FB81BE5023 /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3559C6B7CB46113DD8FD5C5FF0EE0B /* Container.Logging.swift */; };
+		38BAF68478795C5072A817B3D41FDA73 /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5420AC4F5C42540FC85184A18D70515 /* DebugHelper.swift */; };
+		3D06389955DA48DCA37F62B63B5ED9F7 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5E96FBD59528E7F3E9E829DA71711 /* Resolver.swift */; };
+		41DAF68B9490663BD8F1CC4E3043FBD0 /* ResolutionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E326C68DF912FE7AA266A0FF61D46 /* ResolutionError.swift */; };
+		494F6C3E0186F0E9348C0DAB772AF753 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3F960C89456BEFF3DA064722BE98C /* UnavailableItems.swift */; };
+		4A70218E8CBA314946A58579459E7059 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78923D6F331FC4C53EF940C01A2B95 /* _Resolver.swift */; };
+		4B9BA174E2FB429A661D08E8E2D8AAB8 /* TypeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D37EA94EAA111495E1EA6741EB858A /* TypeParser.swift */; };
+		505F94409186E3C3962577B8A1EF942B /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D5A450E33C4D5EE59B925E0D435857 /* SwinjectStoryboard.swift */; };
+		54F580595F7FBA339F359A73030C70DE /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0253F36DE7DDDF92D0B9060D47F1F77 /* Assembler.swift */; };
+		55A69D4C94CA83699E3DC174BBA16AB5 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35339F35FBBB6A4D0796807478B79703 /* SwinjectStoryboard+StoryboardReference.swift */; };
+		5746830CD646BA7BEF79F16DD5A2FDCA /* SwinjectAutoregistration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4FA48999F65DB56E0D36B19B768B0D /* SwinjectAutoregistration-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59F9B1F7CB47F10165CD39BD283D62EA /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F199ABBEF2063CA4FC85BD09C96F796 /* Container.Arguments.swift */; };
+		5E09494485F8F833B7C1A75B51D7D405 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695EE8013DAB5C21A7EFB1689CFC63 /* DispatchQueue+Once.swift */; };
+		6F9EFC8D5D38E4CF29EAB7F159E0D4FC /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46F9E1FA03DCA40C1C29EBE8CA3131 /* SwinjectStoryboardOption.swift */; };
+		6FFDCA7079126BF0B1C6B3F1CD75212D /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7E8B422030AB439C666B7820B653C /* ObjectScope.swift */; };
+		7485AB6CCE592BD3B9296BD1402875D8 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FEA9AE8ABA5C9AFCBB58319A2B1DA3 /* ServiceEntry.swift */; };
+		90088268CE92465C097E6960DB53D340 /* Pods-SwinjectDemo-SwinjectDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F070F64ECCBF8B58E4DF79E941C9BE /* Pods-SwinjectDemo-SwinjectDemoTests-dummy.m */; };
+		95A4740EECA838F0FE28ECCFC2AE7F21 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A28A25577D39E78503E804B91F1E37A /* Swinject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96B68E2F3D1E32C4553ADB2ACA257FFB /* Pods-SwinjectDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8969029328FCAE3A31300D6C19444297 /* Pods-SwinjectDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96B75B752F0CB6F317D4BCBC5B2C4012 /* SwinjectAutoregistration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E85BE1E82A168A0B133B209CA1504AF /* SwinjectAutoregistration-dummy.m */; };
+		9A90D8A7A724C3E23837851E9A65D797 /* SwinjectAutoregistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4850694F530E233900CF44A689936797 /* SwinjectAutoregistration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D38A5F15527B25FD0DF9EB0E90F6256 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30A9F3631A4A556938B03BEFCFFDFF /* SpinLock.swift */; };
+		9EC44F61D70C6E6A9E5D538D87E3DC2A /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F16EC770F0EFF3997DEFB41C3813803F /* Swinject-dummy.m */; };
+		A048AB353752507FFD02F67FBF4B39C7 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983EB4068CA948DB8CCCA8E69854B453 /* SwinjectStoryboard-dummy.m */; };
+		A16B04F77CABFD240A61DBE77DFF7B30 /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B29123E9E448E2C6425CB19E9E9C0 /* InstanceStorage.swift */; };
+		A1D9CAFF8C8DB9F9287374C83468F7B1 /* _SwinjectStoryboardBase(iOS-tvOS).swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889BE3ABC5BC2E142C5D0C4B3322113 /* _SwinjectStoryboardBase(iOS-tvOS).swift */; };
+		A5CA6FCAB52FC6A22631206434FC8C1E /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2408D50346B91B72DE7D752A35580 /* Type.swift */; };
+		AA3721AC01990E30D0845393B0502CFE /* SwinjectStoryboard+SetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 637BE6C01D7FA828ED51217D31628C03 /* SwinjectStoryboard+SetUp.m */; };
+		B01C38B8F329AEC4A3BA8E91B476D710 /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E65C0BE30711249220B1D422D0E40E /* ViewController+Swinject.swift */; };
+		BBBCE74EB26831573ECB96E32CD6BF7A /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D707B964BA8236B6E7EAAFD405C42E /* Resolver.swift */; };
+		BF8CC6933266D7CE69BA3581E72093AA /* CheckResolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B3EB2FF27BB4A0F794055163FF048 /* CheckResolved.swift */; };
+		C12C8FB9C9B8929D6BDFE0213C24A1F2 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47793CDD98DAB2B598C840D4C9F16C /* Container.swift */; };
+		C2463C541B6D31CF7846630CF38889D3 /* InstanceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC8FA2DC531DC8C721E79EA95715AD /* InstanceWrapper.swift */; };
+		C372142A77BC8722D10D2EB2E4E12D9B /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5523B2E8AA0FE904122C040C8B40C947 /* FunctionType.swift */; };
+		C43ABF0CCBC607F4D1AFEB8F756D5887 /* Container.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA7C09A02E199996589585B0C042E1D /* Container.TypeForwarding.swift */; };
+		C4560F9882E8D3603C7000005BC102D0 /* AutoRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B631D2ED24FE3A42F897F275C68920 /* AutoRegistration.swift */; };
+		C45AC5143DF2C6D23A6B6F3DE16E53E6 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01114AEDACFC51973B6302AD28498257 /* Container+SwinjectStoryboard.swift */; };
+		C95F739595192B6A66420058132285C6 /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEBD19B060F772CDF820B09AB8A22A /* SynchronizedResolver.Arguments.swift */; };
+		D547111C088C624874FA8A7C64D2F3B0 /* ServiceEntry.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C792848E5C14D2B432DD206993239 /* ServiceEntry.TypeForwarding.swift */; };
+		D7565B9F4C9C3021337D1E802A6C5857 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23F698FB723F855AB7EDCAA54997D0 /* SynchronizedResolver.swift */; };
+		DA03D7635FCB6A55954DF6E9A073BE2E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF96B3572A6BBE914245E711B800B38 /* Box.swift */; };
+		E1C085B447E056372962206026DC31BD /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A4E8B9EA632B1F15E560373982E52 /* Behavior.swift */; };
+		E4F6071F31D752FF9DF85A17ED41D3F0 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606F168459F9CD7491C7ED8451795E5 /* UnavailableItems.swift */; };
+		EBAD28B766254F3B60B8F737E1EDEBD5 /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C2C359D745D5AB677C7D4A2D8CA67 /* InjectionVerifiable.swift */; };
+		EC868892B7E614049F662868868435CB /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC160F759D1C1601A140FDE1588A2F2 /* ServiceKey.swift */; };
+		F243167CFF61CDFF84591B408E9F2D13 /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1C3C15BFEA43FCA61A822942FDD727 /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F92A6F69A8F89942A17131033CA697E4 /* UIStoryboard+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DF0A2F9C0997CAA71F0358C7819744 /* UIStoryboard+Swizzling.swift */; };
+		FB8B239F32E0E8C256322E858F97E4EA /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B261A4DB8A1904AEFA3E1F6A57118817 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBB165ED9BD1246AB3C055EF4CC5D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
+			remoteInfo = SwinjectStoryboard;
+		};
+		2F127976BEC885DACF77A4014B75B083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		4EF0EAC6248D8BEB7EFC7220A72A7F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3057E291093EA4CA29F959C95AD1E3D5;
+			remoteInfo = SwinjectAutoregistration;
+		};
+		5D27794A0D016F878CC57B0910D8F2D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3057E291093EA4CA29F959C95AD1E3D5;
+			remoteInfo = SwinjectAutoregistration;
+		};
+		9A20001D05B0872167898C7AEE9BF690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		B6CB5BEF028F19CA0D884D99B05FC424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		C38AB918FB4B84D07C00C95B147DA20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
+			remoteInfo = SwinjectStoryboard;
+		};
+		D3C2FDBB5D70117B268FF7E848C72033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B2408D50346B91B72DE7D752A35580 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Sources/Type.swift; sourceTree = "<group>"; };
+		00D707B964BA8236B6E7EAAFD405C42E /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		01114AEDACFC51973B6302AD28498257 /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
+		0A24F1993B56267CE617C70396D5E17F /* Pods-SwinjectDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SwinjectDemo"; path = "libPods-SwinjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3559C6B7CB46113DD8FD5C5FF0EE0B /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
+		0B174D25746555DFC087737EDEB72ECE /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		0D1C3C15BFEA43FCA61A822942FDD727 /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
+		12DEBD19B060F772CDF820B09AB8A22A /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
+		195742870F183BDBF297CAAA591E3FBE /* Swinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.release.xcconfig; sourceTree = "<group>"; };
+		1A5F7CB1224E22D2540660B1DA88F2B7 /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swinject.modulemap; sourceTree = "<group>"; };
+		1D2598D7DA231671DFED8DE84D01C595 /* SwinjectAutoregistration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectAutoregistration.release.xcconfig; sourceTree = "<group>"; };
+		1D47793CDD98DAB2B598C840D4C9F16C /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
+		25DF0A2F9C0997CAA71F0358C7819744 /* UIStoryboard+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Swizzling.swift"; path = "Sources/iOS-tvOS/UIStoryboard+Swizzling.swift"; sourceTree = "<group>"; };
+		2A28A25577D39E78503E804B91F1E37A /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
+		2AE6155FADB58AC8553E70FF2F3F0FD7 /* Pods-SwinjectDemo-SwinjectDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwinjectDemo-SwinjectDemoTests.modulemap"; sourceTree = "<group>"; };
+		2DE5E96FBD59528E7F3E9E829DA71711 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		2F943FADE9D9319103B01BC4E849F366 /* SwinjectStoryboardProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardProtocol.swift; path = Sources/SwinjectStoryboardProtocol.swift; sourceTree = "<group>"; };
+		309C792848E5C14D2B432DD206993239 /* ServiceEntry.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.TypeForwarding.swift; path = Sources/ServiceEntry.TypeForwarding.swift; sourceTree = "<group>"; };
+		35339F35FBBB6A4D0796807478B79703 /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
+		357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SwinjectStoryboard; path = libSwinjectStoryboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AD3B7A34F823463ABD91A719657CC9 /* Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37FEA9AE8ABA5C9AFCBB58319A2B1DA3 /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
+		3C78923D6F331FC4C53EF940C01A2B95 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
+		43836FEFEA37DBCE84E52F7472C60E66 /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
+		464C2C359D745D5AB677C7D4A2D8CA67 /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
+		4850694F530E233900CF44A689936797 /* SwinjectAutoregistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectAutoregistration.h; path = Sources/SwinjectAutoregistration.h; sourceTree = "<group>"; };
+		48FFB52B3DA9E9842F7F1E2F58E8D1B0 /* Pods-SwinjectDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwinjectDemo.modulemap"; sourceTree = "<group>"; };
+		4B3C9F3E737175CD33A520C611A5AFAE /* SwinjectStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.debug.xcconfig; sourceTree = "<group>"; };
+		4B4FA48999F65DB56E0D36B19B768B0D /* SwinjectAutoregistration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectAutoregistration-umbrella.h"; sourceTree = "<group>"; };
+		4C46F9E1FA03DCA40C1C29EBE8CA3131 /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
+		4E4213CC9581D9AE5FEDB3D70FF038F1 /* GraphIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIdentifier.swift; path = Sources/GraphIdentifier.swift; sourceTree = "<group>"; };
+		52E65C0BE30711249220B1D422D0E40E /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
+		5523B2E8AA0FE904122C040C8B40C947 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
+		5606F168459F9CD7491C7ED8451795E5 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		637BE6C01D7FA828ED51217D31628C03 /* SwinjectStoryboard+SetUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwinjectStoryboard+SetUp.m"; path = "Sources/ObjectiveC/Others/SwinjectStoryboard+SetUp.m"; sourceTree = "<group>"; };
+		63F5E59BC1B8714DA283A0220BC573B7 /* Pods-SwinjectDemo-SwinjectDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwinjectDemo-SwinjectDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SwinjectAutoregistration; path = libSwinjectAutoregistration.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB757D31717D1295D9B2ED7279C5495 /* Pods-SwinjectDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwinjectDemo-dummy.m"; sourceTree = "<group>"; };
+		6E85BE1E82A168A0B133B209CA1504AF /* SwinjectAutoregistration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectAutoregistration-dummy.m"; sourceTree = "<group>"; };
+		6E88CF50880DCF14061BE1E31A8874FB /* Pods-SwinjectDemo-SwinjectDemoTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-SwinjectDemo-SwinjectDemoTests"; path = "libPods-SwinjectDemo-SwinjectDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3B3EB2FF27BB4A0F794055163FF048 /* CheckResolved.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckResolved.swift; path = Sources/CheckResolved.swift; sourceTree = "<group>"; };
+		71C7E8B422030AB439C666B7820B653C /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
+		735260C4F644360668581644652C839E /* Pods-SwinjectDemo-SwinjectDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwinjectDemo-SwinjectDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		754ECF8D103C332955A2E443791AE213 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
+		766B29123E9E448E2C6425CB19E9E9C0 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
+		7889BE3ABC5BC2E142C5D0C4B3322113 /* _SwinjectStoryboardBase(iOS-tvOS).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_SwinjectStoryboardBase(iOS-tvOS).swift"; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase(iOS-tvOS).swift"; sourceTree = "<group>"; };
+		7BC160F759D1C1601A140FDE1588A2F2 /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
+		7EF96B3572A6BBE914245E711B800B38 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		7F199ABBEF2063CA4FC85BD09C96F796 /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
+		801FF6F2D500B338164A4E21540D4FE9 /* Pods-SwinjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwinjectDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84F3F960C89456BEFF3DA064722BE98C /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		857EBCED2CE1938681DBDD051867555B /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
+		875E326C68DF912FE7AA266A0FF61D46 /* ResolutionError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolutionError.swift; path = Sources/ResolutionError.swift; sourceTree = "<group>"; };
+		8969029328FCAE3A31300D6C19444297 /* Pods-SwinjectDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwinjectDemo-umbrella.h"; sourceTree = "<group>"; };
+		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Swinject; path = libSwinject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA7C09A02E199996589585B0C042E1D /* Container.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.TypeForwarding.swift; path = Sources/Container.TypeForwarding.swift; sourceTree = "<group>"; };
+		906719B086D3286545E1B8B26F716FA9 /* Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		910A4E8B9EA632B1F15E560373982E52 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		926462CE9645C279143901FFF0D00BC4 /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		964ABE3815E065F3122BA2249F0DCC76 /* Pods-SwinjectDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwinjectDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9835FB293D5EAE24F6B35CF3F26D5541 /* SwinjectAutoregistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectAutoregistration.debug.xcconfig; sourceTree = "<group>"; };
+		983EB4068CA948DB8CCCA8E69854B453 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F070F64ECCBF8B58E4DF79E941C9BE /* Pods-SwinjectDemo-SwinjectDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwinjectDemo-SwinjectDemoTests-dummy.m"; sourceTree = "<group>"; };
+		A4FA01E8ABE3F6282779369C2D7B17EC /* Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7B631D2ED24FE3A42F897F275C68920 /* AutoRegistration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoRegistration.swift; path = Sources/AutoRegistration.swift; sourceTree = "<group>"; };
+		B261A4DB8A1904AEFA3E1F6A57118817 /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
+		BF472F02178B5C36910751E10DEB4322 /* Pods-SwinjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwinjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0253F36DE7DDDF92D0B9060D47F1F77 /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
+		C5420AC4F5C42540FC85184A18D70515 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
+		C8D5A450E33C4D5EE59B925E0D435857 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		CA30A9F3631A4A556938B03BEFCFFDFF /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
+		CEDC8FA2DC531DC8C721E79EA95715AD /* InstanceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceWrapper.swift; path = Sources/InstanceWrapper.swift; sourceTree = "<group>"; };
+		D328F721B25DE1A24BBC437DD67F120F /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
+		D99D9C473F9785781ACD1F51F5E06C1D /* SwinjectStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.release.xcconfig; sourceTree = "<group>"; };
+		DF23F698FB723F855AB7EDCAA54997D0 /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
+		E5CE7E2D5B6CB92C96537FF6D0EFED7B /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
+		F0CA2D866B279559319E30D30843507F /* Pods-SwinjectDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwinjectDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F16EC770F0EFF3997DEFB41C3813803F /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
+		F193783731DD6D2DCD8ACFE1A2ED96D3 /* SwinjectAutoregistration-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectAutoregistration-prefix.pch"; sourceTree = "<group>"; };
+		F1D37EA94EAA111495E1EA6741EB858A /* TypeParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeParser.swift; path = Sources/TypeParser.swift; sourceTree = "<group>"; };
+		F2BC9661A02F80B98084F2621E850F77 /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
+		F3695EE8013DAB5C21A7EFB1689CFC63 /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Once.swift"; path = "Sources/DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		F86ADC9F6FF5650A129866F9A5DAA6EE /* SwinjectAutoregistration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectAutoregistration.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECA090B1CB1AD4E5C2AFA6A41C67F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDFEDE6E2D339060ABE3E560037B65C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDB08EC76C8BDEC534528B8C7279955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711C9B87B564721461E0C07FC4F628D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAB3B6A4B4D9929E96276A646C358B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BBA7B49A83096C27754084BF4A85F0 /* SwinjectAutoregistration */ = {
+			isa = PBXGroup;
+			children = (
+				A7B631D2ED24FE3A42F897F275C68920 /* AutoRegistration.swift */,
+				6F3B3EB2FF27BB4A0F794055163FF048 /* CheckResolved.swift */,
+				0B174D25746555DFC087737EDEB72ECE /* Operators.swift */,
+				875E326C68DF912FE7AA266A0FF61D46 /* ResolutionError.swift */,
+				00D707B964BA8236B6E7EAAFD405C42E /* Resolver.swift */,
+				4850694F530E233900CF44A689936797 /* SwinjectAutoregistration.h */,
+				00B2408D50346B91B72DE7D752A35580 /* Type.swift */,
+				F1D37EA94EAA111495E1EA6741EB858A /* TypeParser.swift */,
+				9DE1D9A7179FBBE711808E02503D5302 /* Support Files */,
+			);
+			name = SwinjectAutoregistration;
+			path = SwinjectAutoregistration;
+			sourceTree = "<group>";
+		};
+		1AAA2CD73F2EED460AED2932086958AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA7FBE51CE14E5C5C78FC3EC98B45979 /* Swinject */,
+				13BBA7B49A83096C27754084BF4A85F0 /* SwinjectAutoregistration */,
+				B3C5F453158BD4D7135C8C38A8A2BFF0 /* SwinjectStoryboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F8E920E0950141F69A956BC02A5CED2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47649E9E2338DF9C2251B45D7692F9CB /* Pods-SwinjectDemo */,
+				58334FF6D4019D3F6515689F28A29F9F /* Pods-SwinjectDemo-SwinjectDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47649E9E2338DF9C2251B45D7692F9CB /* Pods-SwinjectDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48FFB52B3DA9E9842F7F1E2F58E8D1B0 /* Pods-SwinjectDemo.modulemap */,
+				964ABE3815E065F3122BA2249F0DCC76 /* Pods-SwinjectDemo-acknowledgements.markdown */,
+				F0CA2D866B279559319E30D30843507F /* Pods-SwinjectDemo-acknowledgements.plist */,
+				6CB757D31717D1295D9B2ED7279C5495 /* Pods-SwinjectDemo-dummy.m */,
+				8969029328FCAE3A31300D6C19444297 /* Pods-SwinjectDemo-umbrella.h */,
+				BF472F02178B5C36910751E10DEB4322 /* Pods-SwinjectDemo.debug.xcconfig */,
+				801FF6F2D500B338164A4E21540D4FE9 /* Pods-SwinjectDemo.release.xcconfig */,
+			);
+			name = "Pods-SwinjectDemo";
+			path = "Target Support Files/Pods-SwinjectDemo";
+			sourceTree = "<group>";
+		};
+		58334FF6D4019D3F6515689F28A29F9F /* Pods-SwinjectDemo-SwinjectDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6155FADB58AC8553E70FF2F3F0FD7 /* Pods-SwinjectDemo-SwinjectDemoTests.modulemap */,
+				37AD3B7A34F823463ABD91A719657CC9 /* Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.markdown */,
+				A4FA01E8ABE3F6282779369C2D7B17EC /* Pods-SwinjectDemo-SwinjectDemoTests-acknowledgements.plist */,
+				A2F070F64ECCBF8B58E4DF79E941C9BE /* Pods-SwinjectDemo-SwinjectDemoTests-dummy.m */,
+				906719B086D3286545E1B8B26F716FA9 /* Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h */,
+				735260C4F644360668581644652C839E /* Pods-SwinjectDemo-SwinjectDemoTests.debug.xcconfig */,
+				63F5E59BC1B8714DA283A0220BC573B7 /* Pods-SwinjectDemo-SwinjectDemoTests.release.xcconfig */,
+			);
+			name = "Pods-SwinjectDemo-SwinjectDemoTests";
+			path = "Target Support Files/Pods-SwinjectDemo-SwinjectDemoTests";
+			sourceTree = "<group>";
+		};
+		78D475E6042D66C0631D9D4ED1348631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A24F1993B56267CE617C70396D5E17F /* Pods-SwinjectDemo */,
+				6E88CF50880DCF14061BE1E31A8874FB /* Pods-SwinjectDemo-SwinjectDemoTests */,
+				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
+				65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration */,
+				357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE1D9A7179FBBE711808E02503D5302 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F86ADC9F6FF5650A129866F9A5DAA6EE /* SwinjectAutoregistration.modulemap */,
+				6E85BE1E82A168A0B133B209CA1504AF /* SwinjectAutoregistration-dummy.m */,
+				F193783731DD6D2DCD8ACFE1A2ED96D3 /* SwinjectAutoregistration-prefix.pch */,
+				4B4FA48999F65DB56E0D36B19B768B0D /* SwinjectAutoregistration-umbrella.h */,
+				9835FB293D5EAE24F6B35CF3F26D5541 /* SwinjectAutoregistration.debug.xcconfig */,
+				1D2598D7DA231671DFED8DE84D01C595 /* SwinjectAutoregistration.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwinjectAutoregistration";
+			sourceTree = "<group>";
+		};
+		B3C5F453158BD4D7135C8C38A8A2BFF0 /* SwinjectStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				7889BE3ABC5BC2E142C5D0C4B3322113 /* _SwinjectStoryboardBase(iOS-tvOS).swift */,
+				7EF96B3572A6BBE914245E711B800B38 /* Box.swift */,
+				01114AEDACFC51973B6302AD28498257 /* Container+SwinjectStoryboard.swift */,
+				F3695EE8013DAB5C21A7EFB1689CFC63 /* DispatchQueue+Once.swift */,
+				464C2C359D745D5AB677C7D4A2D8CA67 /* InjectionVerifiable.swift */,
+				F2BC9661A02F80B98084F2621E850F77 /* RegistrationNameAssociatable.swift */,
+				C8D5A450E33C4D5EE59B925E0D435857 /* SwinjectStoryboard.swift */,
+				637BE6C01D7FA828ED51217D31628C03 /* SwinjectStoryboard+SetUp.m */,
+				35339F35FBBB6A4D0796807478B79703 /* SwinjectStoryboard+StoryboardReference.swift */,
+				4C46F9E1FA03DCA40C1C29EBE8CA3131 /* SwinjectStoryboardOption.swift */,
+				2F943FADE9D9319103B01BC4E849F366 /* SwinjectStoryboardProtocol.swift */,
+				25DF0A2F9C0997CAA71F0358C7819744 /* UIStoryboard+Swizzling.swift */,
+				84F3F960C89456BEFF3DA064722BE98C /* UnavailableItems.swift */,
+				52E65C0BE30711249220B1D422D0E40E /* ViewController+Swinject.swift */,
+				FFFBE8A33E0E19660705F6ADFFD1F13B /* Support Files */,
+			);
+			name = SwinjectStoryboard;
+			path = SwinjectStoryboard;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1AAA2CD73F2EED460AED2932086958AB /* Pods */,
+				78D475E6042D66C0631D9D4ED1348631 /* Products */,
+				1F8E920E0950141F69A956BC02A5CED2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7FBE51CE14E5C5C78FC3EC98B45979 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				3C78923D6F331FC4C53EF940C01A2B95 /* _Resolver.swift */,
+				C0253F36DE7DDDF92D0B9060D47F1F77 /* Assembler.swift */,
+				E5CE7E2D5B6CB92C96537FF6D0EFED7B /* Assembly.swift */,
+				910A4E8B9EA632B1F15E560373982E52 /* Behavior.swift */,
+				1D47793CDD98DAB2B598C840D4C9F16C /* Container.swift */,
+				7F199ABBEF2063CA4FC85BD09C96F796 /* Container.Arguments.swift */,
+				0A3559C6B7CB46113DD8FD5C5FF0EE0B /* Container.Logging.swift */,
+				8EA7C09A02E199996589585B0C042E1D /* Container.TypeForwarding.swift */,
+				C5420AC4F5C42540FC85184A18D70515 /* DebugHelper.swift */,
+				5523B2E8AA0FE904122C040C8B40C947 /* FunctionType.swift */,
+				4E4213CC9581D9AE5FEDB3D70FF038F1 /* GraphIdentifier.swift */,
+				766B29123E9E448E2C6425CB19E9E9C0 /* InstanceStorage.swift */,
+				CEDC8FA2DC531DC8C721E79EA95715AD /* InstanceWrapper.swift */,
+				71C7E8B422030AB439C666B7820B653C /* ObjectScope.swift */,
+				754ECF8D103C332955A2E443791AE213 /* ObjectScope.Standard.swift */,
+				2DE5E96FBD59528E7F3E9E829DA71711 /* Resolver.swift */,
+				37FEA9AE8ABA5C9AFCBB58319A2B1DA3 /* ServiceEntry.swift */,
+				309C792848E5C14D2B432DD206993239 /* ServiceEntry.TypeForwarding.swift */,
+				7BC160F759D1C1601A140FDE1588A2F2 /* ServiceKey.swift */,
+				CA30A9F3631A4A556938B03BEFCFFDFF /* SpinLock.swift */,
+				2A28A25577D39E78503E804B91F1E37A /* Swinject.h */,
+				DF23F698FB723F855AB7EDCAA54997D0 /* SynchronizedResolver.swift */,
+				12DEBD19B060F772CDF820B09AB8A22A /* SynchronizedResolver.Arguments.swift */,
+				5606F168459F9CD7491C7ED8451795E5 /* UnavailableItems.swift */,
+				E089D01E61DA7A4D272B72AABBF909FE /* Support Files */,
+			);
+			name = Swinject;
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		E089D01E61DA7A4D272B72AABBF909FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F7CB1224E22D2540660B1DA88F2B7 /* Swinject.modulemap */,
+				F16EC770F0EFF3997DEFB41C3813803F /* Swinject-dummy.m */,
+				857EBCED2CE1938681DBDD051867555B /* Swinject-prefix.pch */,
+				B261A4DB8A1904AEFA3E1F6A57118817 /* Swinject-umbrella.h */,
+				43836FEFEA37DBCE84E52F7472C60E66 /* Swinject.debug.xcconfig */,
+				195742870F183BDBF297CAAA591E3FBE /* Swinject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swinject";
+			sourceTree = "<group>";
+		};
+		FFFBE8A33E0E19660705F6ADFFD1F13B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D328F721B25DE1A24BBC437DD67F120F /* SwinjectStoryboard.modulemap */,
+				983EB4068CA948DB8CCCA8E69854B453 /* SwinjectStoryboard-dummy.m */,
+				926462CE9645C279143901FFF0D00BC4 /* SwinjectStoryboard-prefix.pch */,
+				0D1C3C15BFEA43FCA61A822942FDD727 /* SwinjectStoryboard-umbrella.h */,
+				4B3C9F3E737175CD33A520C611A5AFAE /* SwinjectStoryboard.debug.xcconfig */,
+				D99D9C473F9785781ACD1F51F5E06C1D /* SwinjectStoryboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwinjectStoryboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06E43DF6895269DB03C46C863E9A6758 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A90D8A7A724C3E23837851E9A65D797 /* SwinjectAutoregistration.h in Headers */,
+				5746830CD646BA7BEF79F16DD5A2FDCA /* SwinjectAutoregistration-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D76355A225C65457E71368F32EDB10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B68E2F3D1E32C4553ADB2ACA257FFB /* Pods-SwinjectDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FE4F57C4AB89E44FEB1C5C04D74445 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE6DFB35A27E1419261C298C18EE947 /* Pods-SwinjectDemo-SwinjectDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020670AC5686F425CAFFB47E165D5D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A4740EECA838F0FE28ECCFC2AE7F21 /* Swinject.h in Headers */,
+				FB8B239F32E0E8C256322E858F97E4EA /* Swinject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DEA40CA8E4ACB41C7BE63162CCE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243167CFF61CDFF84591B408E9F2D13 /* SwinjectStoryboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B8BC73E96FB45844F514B59CD273895 /* Pods-SwinjectDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1AF079F943ECDC42CF025F49621C81 /* Build configuration list for PBXNativeTarget "Pods-SwinjectDemo" */;
+			buildPhases = (
+				47D76355A225C65457E71368F32EDB10 /* Headers */,
+				3B4D9C769520CF4725360ED830DC0127 /* Sources */,
+				5EDFEDE6E2D339060ABE3E560037B65C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28963D9C32B8C6C243F0918868C89603 /* PBXTargetDependency */,
+				2F4B7932C7455CC29C7E6E0B677045BA /* PBXTargetDependency */,
+				1357C5CACFA3FE626E08855C647587C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwinjectDemo";
+			productName = "Pods-SwinjectDemo";
+			productReference = 0A24F1993B56267CE617C70396D5E17F /* Pods-SwinjectDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25F9ACCFF16E26E139D82636E143C23 /* Build configuration list for PBXNativeTarget "SwinjectAutoregistration" */;
+			buildPhases = (
+				06E43DF6895269DB03C46C863E9A6758 /* Headers */,
+				125FBAD32AA1BE04B03D470208A7D7DE /* Sources */,
+				6FDB08EC76C8BDEC534528B8C7279955 /* Frameworks */,
+				A83812FE3FAC0A970319803F26F24B54 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D214DA288078AD16B54B19F6E9B036A /* PBXTargetDependency */,
+			);
+			name = SwinjectAutoregistration;
+			productName = SwinjectAutoregistration;
+			productReference = 65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3E400AD6B9E64352BE60AA746D8082E6 /* Pods-SwinjectDemo-SwinjectDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057EEC6FA29CBDC8337393C7383C0252 /* Build configuration list for PBXNativeTarget "Pods-SwinjectDemo-SwinjectDemoTests" */;
+			buildPhases = (
+				58FE4F57C4AB89E44FEB1C5C04D74445 /* Headers */,
+				2BE213B8693DD964CDF34206D4549036 /* Sources */,
+				2ECA090B1CB1AD4E5C2AFA6A41C67F64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83D74B7F50A9CF603ED7C21FE670A40 /* PBXTargetDependency */,
+				CC47116882C93E6A1AD0FE9707062BE2 /* PBXTargetDependency */,
+				2332DFD18A1DDEA6C104A40F605993DB /* PBXTargetDependency */,
+			);
+			name = "Pods-SwinjectDemo-SwinjectDemoTests";
+			productName = "Pods-SwinjectDemo-SwinjectDemoTests";
+			productReference = 6E88CF50880DCF14061BE1E31A8874FB /* Pods-SwinjectDemo-SwinjectDemoTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		46065AF968A5A92D450BB21F7F24367D /* Swinject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004B4E175C495A4C21B4185E05EE5621 /* Build configuration list for PBXNativeTarget "Swinject" */;
+			buildPhases = (
+				8020670AC5686F425CAFFB47E165D5D9 /* Headers */,
+				9A056497D17A8E01D999B683D9C001C7 /* Sources */,
+				711C9B87B564721461E0C07FC4F628D7 /* Frameworks */,
+				B7BB1BFBC471CF06889081537E0B1E16 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swinject;
+			productName = Swinject;
+			productReference = 8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD0E56BF6B48DF3CCB7C0BEF49C47EA /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */;
+			buildPhases = (
+				CC26DEA40CA8E4ACB41C7BE63162CCE0 /* Headers */,
+				BBB60CF73A6538CA05DA9F28B4E86A21 /* Sources */,
+				FAAB3B6A4B4D9929E96276A646C358B3 /* Frameworks */,
+				B59CEE7AAEA280C29790EAE604895331 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B17572B97FD0A54172255C82C5DD198 /* PBXTargetDependency */,
+			);
+			name = SwinjectStoryboard;
+			productName = SwinjectStoryboard;
+			productReference = 357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78D475E6042D66C0631D9D4ED1348631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8BC73E96FB45844F514B59CD273895 /* Pods-SwinjectDemo */,
+				3E400AD6B9E64352BE60AA746D8082E6 /* Pods-SwinjectDemo-SwinjectDemoTests */,
+				46065AF968A5A92D450BB21F7F24367D /* Swinject */,
+				3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */,
+				65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A83812FE3FAC0A970319803F26F24B54 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		B59CEE7AAEA280C29790EAE604895331 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SwinjectStoryboard/SwinjectStoryboard.modulemap",
+				"${PODS_ROOT}/Headers/Public/SwinjectStoryboard/SwinjectStoryboard-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwinjectStoryboard/SwinjectStoryboard.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SwinjectStoryboard/SwinjectStoryboard-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		B7BB1BFBC471CF06889081537E0B1E16 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Swinject/Swinject.modulemap",
+				"${PODS_ROOT}/Headers/Public/Swinject/Swinject-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Swinject-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Swinject/Swinject.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Swinject/Swinject-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125FBAD32AA1BE04B03D470208A7D7DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4560F9882E8D3603C7000005BC102D0 /* AutoRegistration.swift in Sources */,
+				BF8CC6933266D7CE69BA3581E72093AA /* CheckResolved.swift in Sources */,
+				169B913E33E6C02C4BA288F8F7EC4F52 /* Operators.swift in Sources */,
+				41DAF68B9490663BD8F1CC4E3043FBD0 /* ResolutionError.swift in Sources */,
+				BBBCE74EB26831573ECB96E32CD6BF7A /* Resolver.swift in Sources */,
+				96B75B752F0CB6F317D4BCBC5B2C4012 /* SwinjectAutoregistration-dummy.m in Sources */,
+				A5CA6FCAB52FC6A22631206434FC8C1E /* Type.swift in Sources */,
+				4B9BA174E2FB429A661D08E8E2D8AAB8 /* TypeParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE213B8693DD964CDF34206D4549036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90088268CE92465C097E6960DB53D340 /* Pods-SwinjectDemo-SwinjectDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4D9C769520CF4725360ED830DC0127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F4B0DCF57F9721FD70EEF24649456DD /* Pods-SwinjectDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A056497D17A8E01D999B683D9C001C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A70218E8CBA314946A58579459E7059 /* _Resolver.swift in Sources */,
+				54F580595F7FBA339F359A73030C70DE /* Assembler.swift in Sources */,
+				076DC95D785A860F91FF87DC1F5CB748 /* Assembly.swift in Sources */,
+				E1C085B447E056372962206026DC31BD /* Behavior.swift in Sources */,
+				C12C8FB9C9B8929D6BDFE0213C24A1F2 /* Container.swift in Sources */,
+				59F9B1F7CB47F10165CD39BD283D62EA /* Container.Arguments.swift in Sources */,
+				309882A99DD0F370BB0680FB81BE5023 /* Container.Logging.swift in Sources */,
+				C43ABF0CCBC607F4D1AFEB8F756D5887 /* Container.TypeForwarding.swift in Sources */,
+				38BAF68478795C5072A817B3D41FDA73 /* DebugHelper.swift in Sources */,
+				C372142A77BC8722D10D2EB2E4E12D9B /* FunctionType.swift in Sources */,
+				1B1DD33858DDC96315E85867E152751B /* GraphIdentifier.swift in Sources */,
+				A16B04F77CABFD240A61DBE77DFF7B30 /* InstanceStorage.swift in Sources */,
+				C2463C541B6D31CF7846630CF38889D3 /* InstanceWrapper.swift in Sources */,
+				6FFDCA7079126BF0B1C6B3F1CD75212D /* ObjectScope.swift in Sources */,
+				0C0338C57884744C2131DB4B63C848C9 /* ObjectScope.Standard.swift in Sources */,
+				3D06389955DA48DCA37F62B63B5ED9F7 /* Resolver.swift in Sources */,
+				7485AB6CCE592BD3B9296BD1402875D8 /* ServiceEntry.swift in Sources */,
+				D547111C088C624874FA8A7C64D2F3B0 /* ServiceEntry.TypeForwarding.swift in Sources */,
+				EC868892B7E614049F662868868435CB /* ServiceKey.swift in Sources */,
+				9D38A5F15527B25FD0DF9EB0E90F6256 /* SpinLock.swift in Sources */,
+				9EC44F61D70C6E6A9E5D538D87E3DC2A /* Swinject-dummy.m in Sources */,
+				D7565B9F4C9C3021337D1E802A6C5857 /* SynchronizedResolver.swift in Sources */,
+				C95F739595192B6A66420058132285C6 /* SynchronizedResolver.Arguments.swift in Sources */,
+				E4F6071F31D752FF9DF85A17ED41D3F0 /* UnavailableItems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB60CF73A6538CA05DA9F28B4E86A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D9CAFF8C8DB9F9287374C83468F7B1 /* _SwinjectStoryboardBase(iOS-tvOS).swift in Sources */,
+				DA03D7635FCB6A55954DF6E9A073BE2E /* Box.swift in Sources */,
+				C45AC5143DF2C6D23A6B6F3DE16E53E6 /* Container+SwinjectStoryboard.swift in Sources */,
+				5E09494485F8F833B7C1A75B51D7D405 /* DispatchQueue+Once.swift in Sources */,
+				EBAD28B766254F3B60B8F737E1EDEBD5 /* InjectionVerifiable.swift in Sources */,
+				0CB81354233EC45E95FF6315E4C960A6 /* RegistrationNameAssociatable.swift in Sources */,
+				505F94409186E3C3962577B8A1EF942B /* SwinjectStoryboard.swift in Sources */,
+				AA3721AC01990E30D0845393B0502CFE /* SwinjectStoryboard+SetUp.m in Sources */,
+				55A69D4C94CA83699E3DC174BBA16AB5 /* SwinjectStoryboard+StoryboardReference.swift in Sources */,
+				A048AB353752507FFD02F67FBF4B39C7 /* SwinjectStoryboard-dummy.m in Sources */,
+				6F9EFC8D5D38E4CF29EAB7F159E0D4FC /* SwinjectStoryboardOption.swift in Sources */,
+				2DFF1675C26D45C26AE4E041A4540E09 /* SwinjectStoryboardProtocol.swift in Sources */,
+				F92A6F69A8F89942A17131033CA697E4 /* UIStoryboard+Swizzling.swift in Sources */,
+				494F6C3E0186F0E9348C0DAB772AF753 /* UnavailableItems.swift in Sources */,
+				B01C38B8F329AEC4A3BA8E91B476D710 /* ViewController+Swinject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1357C5CACFA3FE626E08855C647587C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectStoryboard;
+			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
+			targetProxy = 0BBB165ED9BD1246AB3C055EF4CC5D37 /* PBXContainerItemProxy */;
+		};
+		2332DFD18A1DDEA6C104A40F605993DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectStoryboard;
+			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
+			targetProxy = C38AB918FB4B84D07C00C95B147DA20A /* PBXContainerItemProxy */;
+		};
+		28963D9C32B8C6C243F0918868C89603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 9A20001D05B0872167898C7AEE9BF690 /* PBXContainerItemProxy */;
+		};
+		2F4B7932C7455CC29C7E6E0B677045BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectAutoregistration;
+			target = 3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */;
+			targetProxy = 5D27794A0D016F878CC57B0910D8F2D9 /* PBXContainerItemProxy */;
+		};
+		5D214DA288078AD16B54B19F6E9B036A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = D3C2FDBB5D70117B268FF7E848C72033 /* PBXContainerItemProxy */;
+		};
+		8B17572B97FD0A54172255C82C5DD198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = B6CB5BEF028F19CA0D884D99B05FC424 /* PBXContainerItemProxy */;
+		};
+		CC47116882C93E6A1AD0FE9707062BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectAutoregistration;
+			target = 3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */;
+			targetProxy = 4EF0EAC6248D8BEB7EFC7220A72A7F08 /* PBXContainerItemProxy */;
+		};
+		D83D74B7F50A9CF603ED7C21FE670A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 2F127976BEC885DACF77A4014B75B083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B1C01B97385B0377740D82400138DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735260C4F644360668581644652C839E /* Pods-SwinjectDemo-SwinjectDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwinjectDemo-SwinjectDemoTests/Pods-SwinjectDemo-SwinjectDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2A016E0CA975B442FD2A90B63A790DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F5E59BC1B8714DA283A0220BC573B7 /* Pods-SwinjectDemo-SwinjectDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwinjectDemo-SwinjectDemoTests/Pods-SwinjectDemo-SwinjectDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7CB8900AAEF6035B3290E6B9CFDCD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF472F02178B5C36910751E10DEB4322 /* Pods-SwinjectDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwinjectDemo/Pods-SwinjectDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		51254EDBFF2058508319EA6A062B6338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99D9C473F9785781ACD1F51F5E06C1D /* SwinjectStoryboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwinjectStoryboard/SwinjectStoryboard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwinjectStoryboard;
+				PRODUCT_NAME = SwinjectStoryboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		727105DA8C7FFC65B28381EA874B40F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195742870F183BDBF297CAAA591E3FBE /* Swinject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Swinject/Swinject.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Swinject;
+				PRODUCT_NAME = Swinject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758BC12E348E15DC720456188BEA65C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9835FB293D5EAE24F6B35CF3F26D5541 /* SwinjectAutoregistration.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwinjectAutoregistration;
+				PRODUCT_NAME = SwinjectAutoregistration;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F2989788E0FBA83865E19F8E32893D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43836FEFEA37DBCE84E52F7472C60E66 /* Swinject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Swinject/Swinject.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Swinject;
+				PRODUCT_NAME = Swinject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A63F92C2FCBBF8F50C6F8CCF9EABC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3C9F3E737175CD33A520C611A5AFAE /* SwinjectStoryboard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwinjectStoryboard/SwinjectStoryboard.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwinjectStoryboard;
+				PRODUCT_NAME = SwinjectStoryboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5415B6E43CC6456B744F3D175D75553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801FF6F2D500B338164A4E21540D4FE9 /* Pods-SwinjectDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwinjectDemo/Pods-SwinjectDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8664471EA43A8BC9F82F18F8C81104F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2598D7DA231671DFED8DE84D01C595 /* SwinjectAutoregistration.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SwinjectAutoregistration/SwinjectAutoregistration.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwinjectAutoregistration;
+				PRODUCT_NAME = SwinjectAutoregistration;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004B4E175C495A4C21B4185E05EE5621 /* Build configuration list for PBXNativeTarget "Swinject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F2989788E0FBA83865E19F8E32893D /* Debug */,
+				727105DA8C7FFC65B28381EA874B40F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057EEC6FA29CBDC8337393C7383C0252 /* Build configuration list for PBXNativeTarget "Pods-SwinjectDemo-SwinjectDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B1C01B97385B0377740D82400138DB /* Debug */,
+				2A016E0CA975B442FD2A90B63A790DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B1AF079F943ECDC42CF025F49621C81 /* Build configuration list for PBXNativeTarget "Pods-SwinjectDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7CB8900AAEF6035B3290E6B9CFDCD1 /* Debug */,
+				C5415B6E43CC6456B744F3D175D75553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25F9ACCFF16E26E139D82636E143C23 /* Build configuration list for PBXNativeTarget "SwinjectAutoregistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758BC12E348E15DC720456188BEA65C8 /* Debug */,
+				F8664471EA43A8BC9F82F18F8C81104F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD0E56BF6B48DF3CCB7C0BEF49C47EA /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A63F92C2FCBBF8F50C6F8CCF9EABC11 /* Debug */,
+				51254EDBFF2058508319EA6A062B6338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
